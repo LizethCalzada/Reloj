@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(45deg, #b4d9f7,#e65ab0 );
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
+    
+}
+
+.contenedor{
+    background-image: url("Reloj.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px #e7bbd1;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+#resultadoContenedor{
+    background-color: rgb(253, 182, 218);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
